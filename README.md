@@ -32,11 +32,13 @@ print(DNALib.new("TACACGACCTGCATC"):toAA())
   * Sequence:   `string`
   * `toDNA()`   -> `DNA`
   * `totRNA()`  -> `tRNA`
+  * `toAA()`    -> `AminoAcid[]`
   * `split()`   -> `string[]`
 * tRNA
   * Sequence:   `string`
   * `toDNA()`   -> `DNA`
   * `tomRNA()`  -> `mRNA`
+  * `toAA()`    -> `AminoAcid[]`
   * `split()`   -> `string[]`
 * AminoAcid
   * Acronym:    `string`
