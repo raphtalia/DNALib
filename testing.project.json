@@ -1,0 +1,14 @@
+{
+    "name": "DNALib - Testing",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+
+            "DNALib": {
+                "$path": "src"
+            }
+        }
+    }
+}
