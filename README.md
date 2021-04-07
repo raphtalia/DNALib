@@ -16,26 +16,27 @@ print(DNALib.new("TACACGACCTGCATC"):toAA())
 
 ## Constructors
 
-* DNALib.new(sequence: `string`) -> `DNA`
-* DNALib.frommRNA(sequence: `string`) -> `DNA`
-* DNALib.fromtRNA(sequence: `string`) -> `DNA`
+* DNALib.new(sequence: `string`)        -> `DNA`
+* DNALib.frommRNA(sequence: `string`)   -> `DNA`
+* DNALib.fromtRNA(sequence: `string`)   -> `DNA`
 
 ## Classes
 
 * DNA
-  * Sequence: `string`
-  * `tomRNA()` -> `mRNA`
-  * `totRNA()` -> `tRNA`
-  * `split()` -> `AminoAcid[]`
+  * Sequence:   `string`
+  * `tomRNA()`  -> `mRNA`
+  * `totRNA()`  -> `tRNA`
+  * `toAA()`    -> `AminoAcid[]`
+  * `split()`   -> `string[]`
 * mRNA
-  * Sequence: `string`
-  * `toDNA()` -> `DNA`
-  * `totRNA()` -> `tRNA`
-  * `split()` -> `AminoAcid[]`
+  * Sequence:   `string`
+  * `toDNA()`   -> `DNA`
+  * `totRNA()`  -> `tRNA`
+  * `split()`   -> `string[]`
 * tRNA
-  * Sequence: `string`
-  * `toDNA()` -> `DNA`
-  * `tomRNA()` -> `mRNA`
-  * `split()` -> `AminoAcid[]`
+  * Sequence:   `string`
+  * `toDNA()`   -> `DNA`
+  * `tomRNA()`  -> `mRNA`
+  * `split()`   -> `string[]`
 * AminoAcid
-  * Acronym: `string`
+  * Acronym:    `string`
